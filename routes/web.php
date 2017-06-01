@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('proyecto-desarrollo-web-le-garraf', 'PagesController@legarraf');

@@ -10,4 +10,9 @@ class PagesController extends Controller
     {
     	return View('pages.index');
     }
+
+    public function legarraf()
+    {
+    	return View('pages.legarraf');
+    }
 }

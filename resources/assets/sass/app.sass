@@ -29,8 +29,17 @@
 	margin-bottom: 60px
 .p-t-40
 	padding-top: 40px
+.p-t-60
+	padding-top: 60px
+.p-b-20
+	padding-bottom: 20px
+.p-b-60
+	padding-bottom: 60px
 .m-t--80
 	margin-top: -80px !important
+h2.white
+	font-size: 1.4em
+	margin-top: 0
 .white
 	color: white !important
 .yellow_1
@@ -49,6 +58,22 @@ textarea
 	border: none
 	padding: 4px 12px
 	font-size: 1.2em
+@keyframes background-moves
+  0% { background-position: left bottom }
+  8% { background-position: right bottom }
+  100% { background-position: right bottom }
+@keyframes background-hand-moves
+  0% { background-position: left bottom }
+  40% { background-position: right bottom }
+  100% { background-position: right bottom }
+.animate-hand
+	animation: background-hand-moves 2s steps(23) infinite
+.animate-web
+	animation: background-moves 4.5s steps(21) infinite
+.animate-branding
+	animation: background-moves 4s steps(17) infinite
+.animate-mkt
+	animation: background-moves 5s steps(13) infinite
 body
 	background-color: white
 	padding-top: 50px
@@ -60,6 +85,24 @@ body
 		padding: 8px 15px
 		img
 			width: 50px
+.container-fluid.back-dog
+	position: fixed
+	width: 100%
+	top: 50px
+.services-begins
+	margin-top: 670px
+	background: white
+	position: relative
+	z-index: 2
+	padding-top: 30px
+	padding-bottom: 70px
+.services-container
+	position: relative
+	z-index: 2
+.chamba
+	position: relative
+	z-index: 2
+	background: white
 .main-banner
 	height: 580px
 	position: relative
@@ -78,6 +121,12 @@ body
 		&.topic
 			font-size: 3em
 			line-height: .5em
+			opacity: 1
+			transition: opacity .5s ease
+			&.opacity_0
+				opacity: 0
+				transition: opacity .5s ease
+
 	.help-button
 		border: 1px solid $blue_2
 		display: inline-flex
@@ -112,9 +161,15 @@ body
 .service-info-container
 	text-align: center
 .btn-line
+	position: relative
+	z-index: 3
 	.submit
 		display: inline
+.service-container:first-of-type
+	margin-top: 40px
 .clients
+	position: relative
+	z-index: 2
 	.col-xs-6
 		display: flex
 		align-items: center
@@ -129,8 +184,16 @@ body
 			display: inline-flex
 			&.la-cura
 				width: 70px
+/*PROJECT DETAIL*/
+.project-detail
+	figure
+		padding: 0
+		img
+			width: 100%
 footer
 	background-color: $blue_2
+	position: relative
+	z-index: 2
 .give-us-a-like
 	font-family: 'Titillium Web', sans-serif
 	font-size: 1.6em
@@ -152,7 +215,6 @@ footer
 				text-decoration: none
 			&:visited
 				text-decoration: none
-
 .form-control
 	background-color: $blue_3
 	color: $blue_2
@@ -182,15 +244,18 @@ footer
 				font-size: 1.8em
 			&.topic
 				font-size: 4em
+		.help-button
+			bottom: 70px
+	.services-begins
+		margin-top: 900px
 	.branding-block
 		float: right
 	.service-container
+		margin-bottom: 80px
 		.service-info-container
 			text-align: left
 			.block-title
 				text-align: left
-	.service-container:first-of-type
-		margin-top: 40px
 	.clients
 		padding-top: 40px
 		padding-bottom: 40px
@@ -206,6 +271,8 @@ footer
 	.main-banner
 		display: block
 		position: relative
+		padding-left: 450px
+		padding-top: 200px
 		p
 			text-align: center
 			color: white
@@ -215,11 +282,15 @@ footer
 			&.topic
 				font-size: 6em
 		.legend
-			position: absolute
-			right: 200px
-			top: 300px
+			position: relative
 		.help-button
-			top: 460px
-			right: -150px
+			position: relative
 			bottom: initial
 			font-size: 1.6em
+			margin-top: 60px
+@media screen and (min-width: 1200px)
+	.main-banner
+		padding-top: 250px
+	.back-dog
+		background-position: 0px center
+		background-size: 600px

@@ -8,5 +8,6 @@
         <header>@include('partials.nav')</header>
         <section>@yield('content')</section>
         <footer>@include('partials.footer')</footer>
+        <script src="js/app.js"></script>
     </body>
 </html>
