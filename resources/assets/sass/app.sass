@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Titillium+Web:900);
+@import "variables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+.titillium
+	font-family: 'Titillium Web', sans-serif
+	letter-spacing: 1px
+.lato
+	font-family: 'Lato', sans-serif
+.back-blue_1
+	background-color: $blue_1
+.back_blue_2
+	background-color: $blue_2
+.back_gray_1
+	background-color: $gris_1
+.back-dog
+	background: $blue_1 url(/images/blue-terrier-dog-color.svg) no-repeat -90px center
+	background-size: 350px
+.m-t-40
+	margin-top: 40px
+.m-t-80
+	margin-top: 80px
+.m-b-40
+	margin-bottom: 40px
+.m-b-80
+	margin-bottom: 80px
+.m-t-60
+	margin-top: 60px
+.m-b-60
+	margin-bottom: 60px
+.p-t-40
+	padding-top: 40px
+.m-t--80
+	margin-top: -80px !important
+.white
+	color: white !important
+.yellow_1
+	color: $yellow_1 !important
+.blue_1
+	color: $blue_1 !important
+.blue_2
+	color: $blue_2 !important
+.blue_3
+	color: $blue_3 !important
+textarea
+	resize: none
+.submit
+	background-color: $blue_1
+	color: $blue_2
+	border: none
+	padding: 4px 12px
+	font-size: 1.2em
+body
+	background-color: white
+	padding-top: 50px
+	font-family: 'Lato', sans-serif
+.navbar-default
+	background-color: $blue_1
+	border: none
+	.navbar-brand
+		padding: 8px 15px
+		img
+			width: 50px
+.main-banner
+	height: 580px
+	position: relative
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	align-items: center
+	p
+		text-align: center
+		color: white
+		margin-bottom: 0
+		&.top
+			font-size: 1.6em
+			line-height: 1.2em
+			margin-top: 30px
+		&.topic
+			font-size: 3em
+			line-height: .5em
+	.help-button
+		border: 1px solid $blue_2
+		display: inline-flex
+		padding: 4px 12px
+		position: relative
+		bottom: 20px
+		a
+			color: $blue_2
+.hand
+	background: transparent url(/images/sprite-touch-icon.png) no-repeat left bottom
+	width: 60px
+	height: 60px
+	display: inline-flex
+.block-title
+	font-family: 'Titillium Web', sans-serif
+	color: white
+	text-align: center
+.service-container
+	overflow: hidden
+.service-icon-container
+	text-align: center
+	.service-icon
+		width: 250px
+		height: 230px
+		display: inline-block
+		&.web
+			background: transparent url(/images/sprite-web-icon.jpg) no-repeat left bottom
+		&.branding
+			background: transparent url(/images/sprite-branding-icon.jpg) no-repeat left bottom
+		&.mkt
+			background: transparent url(/images/sprite-mkt-icon.jpg) no-repeat left bottom	
+.service-info-container
+	text-align: center
+.btn-line
+	.submit
+		display: inline
+.clients
+	.col-xs-6
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 100px
+		a
+			display: inline-flex
+			padding: 0
+		img
+			width: 80%
+			height: auto
+			display: inline-flex
+			&.la-cura
+				width: 70px
+footer
+	background-color: $blue_2
+.give-us-a-like
+	font-family: 'Titillium Web', sans-serif
+	font-size: 1.6em
+.social
+	padding: 0
+	li
+		display: inline-block
+		margin: 0 5px
+		a
+			color: white
+			font-size: 2.4em
+			opacity: 1
+			transition: opacity .5s ease
+			&:hover
+				text-decoration: none
+				opacity: .7
+				transition: opacity .5s ease
+			&:focus
+				text-decoration: none
+			&:visited
+				text-decoration: none
+
+.form-control
+	background-color: $blue_3
+	color: $blue_2
+	border-color: $blue_3
+	border-radius: 0
+@media screen and (min-width: 425px)
+	.back-dog
+		background-position: -110px center
+		background-size: 450px
+@media screen and (min-width: 480px)
+	.back-dog
+		background-position: -130px center
+		background-size: 500px
+@media screen and (min-width: 768px)
+	.navbar-default
+		height: 70px
+		.navbar-brand
+			img
+				width: 80px
+	.back-dog
+		background-position: -130px center
+		background-size: 650px
+	.main-banner
+		height: 840px
+		p
+			&.top
+				font-size: 1.8em
+			&.topic
+				font-size: 4em
+	.branding-block
+		float: right
+	.service-container
+		.service-info-container
+			text-align: left
+			.block-title
+				text-align: left
+	.service-container:first-of-type
+		margin-top: 40px
+	.clients
+		padding-top: 40px
+		padding-bottom: 40px
+		.col-xs-6
+			height: 200px
+			a
+				display: inline
+				img
+					width: 90%
+					&.la-cura
+						width: 80%
+@media screen and (min-width: 992px)
+	.main-banner
+		display: block
+		position: relative
+		p
+			text-align: center
+			color: white
+			margin-bottom: 0
+			&.top
+				font-size: 3em
+			&.topic
+				font-size: 6em
+		.legend
+			position: absolute
+			right: 200px
+			top: 300px
+		.help-button
+			top: 460px
+			right: -150px
+			bottom: initial
+			font-size: 1.6em
