@@ -85,11 +85,11 @@
 	<div class="container-fluid clients back_gray_1">
 		<div class="row">
 			<div class="container">
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto BOREAL" href="https://www.behance.net/gallery/52711687/Boreal-website"><img src="images/boreal-logo.svg" alt="boreal logo"></a></div>
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto PISTONES GARAGE" href="https://www.behance.net/gallery/53327997/PISTONES-WEB-SITE"><img src="images/pistones-logo.svg" alt="pistones logo"></a></div>
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto GRILL POINT" href="https://www.behance.net/gallery/52711473/GrillPoint-Social-Media"><img src="images/grillpoint-logo.svg" alt="grillpoint logo"></a></div>
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto MARSALA" href="https://www.behance.net/gallery/52611079/MARSALA-WEB-SITE"><img src="images/marsala-logo.svg" alt="marsala logo"></a></div>
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto LA CURA" href="#"><img src="images/la-cura-logo.svg" class="la-cura" alt="la cura logo"></a></div>
+				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto BOREAL" href="{{ url('proyecto-branding-boreal') }}"><img src="images/boreal-logo.svg" alt="boreal logo"></a></div>
+				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto PISTONES GARAGE" href="{{ url('proyecto-desarrollo-web-pistones') }}"><img src="images/pistones-logo.svg" alt="pistones logo"></a></div>
+				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto GRILL POINT" href="{{ url('proyecto-social-media-grill-point') }}"><img src="images/grillpoint-logo.svg" alt="grillpoint logo"></a></div>
+				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto MARSALA" href="{{ url('proyecto-desarrollo-web-marsala') }}"><img src="images/marsala-logo.svg" alt="marsala logo"></a></div>
+				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto LA CURA" href="{{ url('proyecto-social-media-la-cura') }}"><img src="images/la-cura-logo.svg" class="la-cura" alt="la cura logo"></a></div>
 				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto LE GARRAF" href="{{ url('proyecto-desarrollo-web-le-garraf') }}"><img src="images/le-garraf-logo.svg" alt="le garraf logo"></a></div>
 				<div class="col-xs-12 m-t-40 m-b-40 text-center">
 					<p>Ingresa a nuestro perfil de behance para ver más de nuestro trabajo.</p>
