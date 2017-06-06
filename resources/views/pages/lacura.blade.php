@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title', 'La Cura es un proyecto del cual tenemos el privilegio de llevar la gestión de sus redes sociales, así como diseñado aplicaciones físicas como menús y piezas de uso diario.')
+
 @section('content')
 	<div class="container-fluid back-blue_1 m-b-40 p-b-20">
 		<div class="row">
@@ -13,7 +15,10 @@
 	<div class="container project-detail">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
-				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem porro at consectetur quo quasi doloremque commodi error labore natus cumque, numquam? Culpa quia tenetur pariatur, nihil perspiciatis veritatis quo voluptate.</p>
+				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
+					<strong>La Cura</strong> es un restaurante de mariscos nacido en la ciudad de Hermosillo, Sonora. <br><br>
+					Siempre con la premisa de ofrecer a sus clientes sólo lo mejor de la cocina del mar, tenemos el privilegio de llevar la gestión de sus redes sociales, así como diseñado aplicaciones físicas como menús y piezas de uso diario. <br><br>
+				</p>
 			</div>
 
 			<div class="images-container col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 ">
@@ -24,7 +29,7 @@
 				<figure><img src="images/la-cura-social-media-06.jpg" alt="proyecto La Cura social media 06"></figure>
 				<figure><img src="images/la-cura-social-media-07.jpg" alt="proyecto La Cura social media 07"></figure>
 				
-				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet quos, consequuntur eaque nobis quas itaque, ipsam at tempore ipsum iusto reiciendis quasi cupiditate aperiam, consectetur dignissimos, accusantium vitae reprehenderit?</p>
+				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet quos, consequuntur eaque nobis quas itaque, ipsam at tempore ipsum iusto reiciendis quasi cupiditate aperiam, consectetur dignissimos, accusantium vitae reprehenderit?</p> --}}
 
 			</div>
 

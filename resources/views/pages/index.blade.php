@@ -76,7 +76,7 @@
 
 	</div>
 
-	<div class="container-fluid chamba" id="chamba">
+	<div class="container-fluid la-chamba" id="chamba">
 		<div class="row">
 			<div class="container p-t-60 p-b-60">
 				<div class="btn-line text-center m-t--80">

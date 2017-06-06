@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title', 'MARSALA es un desarrollo Web con E-commerce, el cual puede ser administrado en su totalidad por el cliente, productos, categorías y el contenido de las páginas.')
+
 @section('content')
 	<div class="container-fluid back-blue_1 m-b-40 p-b-20">
 		<div class="row">
@@ -13,24 +15,28 @@
 	<div class="container project-detail">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
-				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem porro at consectetur quo quasi doloremque commodi error labore natus cumque, numquam? Culpa quia tenetur pariatur, nihil perspiciatis veritatis quo voluptate.</p>
+				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
+					<strong>MARSALA</strong> es una marca de accesorios de lujo para viajeros. La personalidad misma de la marca nos motivó a mantener el diseño y la gráfica del sitio web limpio y claro, con un estilo minimalista que deja bien claro que "menos es más".
+					<br><br>
+					Es un desarrollo Web con E-commerce, el cual puede ser administrado en su totalidad por el cliente, productos, categorías y el contenido de las páginas.
+				</p>
 			</div>
 
 			<div class="images-container col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 ">
 				<figure><img src="images/marsala-web-01.jpg" alt="proyecto MARSALA web 01"></figure>
 				
-				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nobis natus laboriosam voluptas saepe fugiat soluta distinctio modi aperiam debitis. Similique, dolorem possimus, debitis quae consequatur nostrum corporis quasi labore!</p>
+				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nobis natus laboriosam voluptas saepe fugiat soluta distinctio modi aperiam debitis. Similique, dolorem possimus, debitis quae consequatur nostrum corporis quasi labore!</p> --}}
 				
 				<figure><img src="images/marsala-web-03.jpg" alt="proyecto MARSALA web 03"></figure>
 				
-				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, qui laudantium. Sint, ab, illum! Consequatur est ad praesentium, earum ex totam suscipit, et perspiciatis, quae quis maxime voluptatem animi harum?</p>
+				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, qui laudantium. Sint, ab, illum! Consequatur est ad praesentium, earum ex totam suscipit, et perspiciatis, quae quis maxime voluptatem animi harum?</p> --}}
 				
 				<figure><img src="images/marsala-web-04.jpg" alt="proyecto MARSALA web 05"></figure>
 				<figure><img src="images/marsala-web-06.jpg" alt="proyecto MARSALA web 06"></figure>
 				<figure><img src="images/marsala-web-08.jpg" alt="proyecto MARSALA web 08"></figure>
 				<figure><img src="images/marsala-web-09.jpg" alt="proyecto MARSALA web 09"></figure>
 				
-				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet quos, consequuntur eaque nobis quas itaque, ipsam at tempore ipsum iusto reiciendis quasi cupiditate aperiam, consectetur dignissimos, accusantium vitae reprehenderit?</p>
+				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet quos, consequuntur eaque nobis quas itaque, ipsam at tempore ipsum iusto reiciendis quasi cupiditate aperiam, consectetur dignissimos, accusantium vitae reprehenderit?</p> --}}
 
 			</div>
 

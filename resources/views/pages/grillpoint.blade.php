@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title', 'GRILL POINT es una gestión de redes sociales (Facebook e Instagram), desarollamos una comunidad amante del grill que está fascinada con esta nueva experiencia de cocina.')
+
 @section('content')
 	<div class="container-fluid back-blue_1 m-b-40 p-b-20">
 		<div class="row">
@@ -13,7 +15,10 @@
 	<div class="container project-detail">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
-				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem porro at consectetur quo quasi doloremque commodi error labore natus cumque, numquam? Culpa quia tenetur pariatur, nihil perspiciatis veritatis quo voluptate.</p>
+				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
+					<strong>GRILL POINT</strong> es un restaurante de Grill que cocina todos sus alimentos con la técnica japonesa del Kamado. <br><br>
+					Llevamos la gestión de sus redes sociales (Facebook e Instagram), desarollando una comunidad amante del grill que esta fascinada con esta nueva experiencia de cocina.
+				</p>
 			</div>
 
 			<div class="images-container col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 ">
@@ -24,7 +29,7 @@
 				<figure><img src="images/grill-point-social-media-05.jpg" alt="proyecto grill point social media 05"></figure>
 				<figure><img src="images/grill-point-social-media-06.jpg" alt="proyecto grill point social media 06"></figure>
 				
-				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet quos, consequuntur eaque nobis quas itaque, ipsam at tempore ipsum iusto reiciendis quasi cupiditate aperiam, consectetur dignissimos, accusantium vitae reprehenderit?</p>
+				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet quos, consequuntur eaque nobis quas itaque, ipsam at tempore ipsum iusto reiciendis quasi cupiditate aperiam, consectetur dignissimos, accusantium vitae reprehenderit?</p> --}}
 
 			</div>
 
