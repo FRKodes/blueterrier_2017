@@ -46,7 +46,7 @@ class PagesController extends Controller
 	{
 		Mail::send('emails.contacto-email', [], function($message)
 		{
-			$message->to('frkalderon@gmail.com', 'blue Terrier')->subject('Contacto desde blueterrier.mx');
+			$message->to('tony@blueterrier.mx', 'blue Terrier')->cc('berna@blueterrier.mx')->cc('diego@blueterrier.mx')->subject('Contacto desde blueterrier.mx');
 		});
 	}
 }
