@@ -18,3 +18,4 @@ Route::get('proyecto-branding-boreal', 'PagesController@boreal');
 Route::get('proyecto-social-media-grill-point', 'PagesController@grillpoint');
 Route::get('proyecto-social-media-la-cura', 'PagesController@lacura');
 Route::get('proyecto-desarrollo-web-pistones', 'PagesController@pistones');
+Route::post('sendmail', 'PagesController@sendmail');

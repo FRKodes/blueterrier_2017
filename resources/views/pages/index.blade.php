@@ -1,20 +1,28 @@
 @extends('layout')
 
 @section('content')
-	<div class="container-fluid back-dog">
+	<div class="right-menu hidden-xs-hidden-sm hidden-md">
+		<ul>
+			<li class="inicio active"><a href="#top">Inicio</a></li>
+			<li class="servicios"><a href="#servicios">Servicios</a></li>
+			<li class="chamba"><a href="#chamba">Chamba</a></li>
+			<li class="contacto"><a href="#contacto">Contacto</a></li>
+		</ul>
+	</div>
+	<div class="container-fluid back-dog" id="inicio">
 		<div class="main-banner text-center">
 			<div class="legend titillium">
 				<p class="top"><span class="blue_2">WE</span> LOVE</p>
 				<p class="topic yellow_1">WEB DEV</p>
 			</div>
 			<div class="help-button titillium">
-				<a href="#">¿TE AYUDAMOS?</a>
+				<a class="help-you" href="#contacto">¿TE AYUDAMOS?</a>
 			</div>
 		</div>
 		<div class="hand-container text-center"><div class="hand animate-hand"></div></div>
 	</div>
 
-	<div class="container-fluid services-begins">
+	<div class="container-fluid services-begins" id="servicios">
 		<div class="row">
 			<div class="container m-t-60">
 				<div class="col-sm-8 col-sm-offset-2">
@@ -68,11 +76,11 @@
 
 	</div>
 
-	<div class="container-fluid chamba">
+	<div class="container-fluid chamba" id="chamba">
 		<div class="row">
 			<div class="container p-t-60 p-b-60">
 				<div class="btn-line text-center m-t--80">
-					<div class="submit titillium">¿INTERESADO?</div>
+					<div class="submit titillium"><a class="interesado blue_2" href="#contacto">¿INTERESADO?</a></div>
 				</div>
 				<h2 class="titillium text-center m-t-80"><span class="blue_1">LA</span> <span class="blue_2">CHAMBA</span></h2>
 				<div class="text-center col-sm-8 col-sm-offset-2">

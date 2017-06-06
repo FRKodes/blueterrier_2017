@@ -1,32 +1,36 @@
-<div class="container p-t-40">
-	
-	<h2 class="titillium text-center m-t-60"><span class="blue_1">CHARLEMOS</span></h2>
+<div class="container p-t-40" id="contacto">
+	<div class="row">
+		
+		<h2 class="titillium text-center m-t-60"><span class="blue_1">CHARLEMOS</span></h2>
 
-	{{ Form::open(['id'=>'contactForm', 'class'=>'col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3']) }}
-		<div class="form-group{{ $errors->has('objetivo') ? ' has-error' : '' }}">
-		    {!! Form::select('objetivo', [''=>'¿Qué estás buscando?', 'Web'=>'Web', 'Branding'=>'Branding', 'MKT Digital'=>'MKT Digital' ], null, ['id' => 'objetivo', 'class' => 'form-control back-blue_1', 'required' => 'required']) !!}
-		    <small class="text-danger">{{ $errors->first('objetivo') }}</small>
-		</div>
-		<div class="form-group{{ $errors->has('nombre') ? ' has-error' : '' }}">
-		    {!! Form::text('nombre', null, ['class' => 'form-control', 'required' => 'required', 'placeholder'=>'¿Cuá es tu nombre?']) !!}
-		    <small class="text-danger">{{ $errors->first('nombre') }}</small>
-		</div>
+		{{ Form::open(['id'=>'contactForm', 'url'=>'sendmail', 'class'=>'col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3']) }}
+			<div class="form-group{{ $errors->has('objetivo') ? ' has-error' : '' }}">
+			    {!! Form::select('objetivo', [''=>'¿Qué estás buscando?', 'Web'=>'Web', 'Branding'=>'Branding', 'MKT Digital'=>'MKT Digital' ], null, ['id' => 'objetivo', 'class' => 'form-control back-blue_1', 'data-validate' => 'required']) !!}
+			</div>
+			<div class="form-group{{ $errors->has('nombre') ? ' has-error' : '' }}">
+			    {!! Form::text('nombre', null, ['class' => 'form-control', 'data-validate' => 'required', 'placeholder'=>'¿Cuá es tu nombre?']) !!}
+			</div>
 
-		<div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-		    {!! Form::text('email', null, ['class' => 'form-control', 'required' => 'required', 'placeholder'=>'Escribe tu correo']) !!}
-		    <small class="text-danger">{{ $errors->first('email') }}</small>
-		</div>
+			<div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+			    {!! Form::text('email', null, ['class' => 'form-control', 'data-validate' => 'required|email', 'placeholder'=>'Escribe tu correo']) !!}
+			</div>
 
-		<div class="form-group{{ $errors->has('comentario') ? ' has-error' : '' }}">
-		    {!! Form::textarea('comentario', null, ['class' => 'form-control', 'required' => 'required', 'placeholder'=>'Platicanos un poco de tu proyecto']) !!}
-		    <small class="text-danger">{{ $errors->first('comentario') }}</small>
-		</div>
-
-		<div class="form-group{{ $errors->has('submit') ? ' has-error' : '' }} text-center">
-		    {!! Form::submit('ENVIAR', ['class' => 'titillium submit']) !!}
-		    <small class="text-danger">{{ $errors->first('submit') }}</small>
-		</div>
-	{{ Form::close() }}
+			<div class="form-group{{ $errors->has('comentario') ? ' has-error' : '' }}">
+			    {!! Form::textarea('comentario', null, ['class' => 'form-control', 'placeholder'=>'Platicanos un poco de tu proyecto']) !!}
+			</div>
+			<div class="form-group text-danger">
+				*Los campos con el contorno rojo son obligatorios.
+			</div>
+			<div class="form-group{{ $errors->has('submit') ? ' has-error' : '' }} text-center">
+			    {!! Form::submit('ENVIAR', ['class' => 'titillium submit']) !!}
+			    <small class="text-danger">{{ $errors->first('submit') }}</small>
+			</div>
+			<div class="col-xs-12 col-sm-10 sent_mail_alert text-center">
+				<p>¡Gracias!</p>
+				<p>Tu mensaje se envió correctamente, nos pondremos en contacto contigo a la brevedad.</p>
+			</div>
+		{{ Form::close() }}
+	</div>
 
 	<div class="col-xs-12 text-center white m-t-40">
 		<p>

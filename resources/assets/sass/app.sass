@@ -7,7 +7,7 @@
 .lato
 	font-family: 'Lato', sans-serif
 .back-blue_1
-	background-color: $blue_1
+	background-color: $blue_1 !important
 .back_blue_2
 	background-color: $blue_2
 .back_gray_1
@@ -215,11 +215,29 @@ footer
 				text-decoration: none
 			&:visited
 				text-decoration: none
+#contactForm
+	position: relative
+	overflow: hidden
+.form-group.error
+	.form-control
+		border-color: red
+		transition: border-color 1s ease
+.text-danger
+	text-align: center
+	display: none
 .form-control
 	background-color: $blue_3
 	color: $blue_2
 	border-color: $blue_3
 	border-radius: 0
+.sent_mail_alert
+	background-color: $blue_1
+	position: absolute
+	width: 93%
+	display: none
+	color: white
+	top: 150px
+	padding: 30px 20px
 @media screen and (min-width: 425px)
 	.back-dog
 		background-position: -110px center
@@ -267,6 +285,8 @@ footer
 					width: 90%
 					&.la-cura
 						width: 80%
+	.sent_mail_alert
+		width: 94%
 @media screen and (min-width: 992px)
 	.main-banner
 		display: block
@@ -289,8 +309,86 @@ footer
 			font-size: 1.6em
 			margin-top: 60px
 @media screen and (min-width: 1200px)
+	.right-menu
+		position: fixed
+		height: 100%
+		width: 20px
+		right: 20px
+		top: 25%
+		z-index: 3
+		ul
+			padding: 0
+			text-align: center
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+			align-items: center
+			margin: 0
+			height: 300px
+			li
+				display: block
+				width: 14px
+				height: 14px
+				border-radius: 50%
+				background: $gris_2
+				position: relative
+				transition: background 1s ease
+				a
+					color: transparent
+					overflow: hidden
+					display: block
+					width: 100%
+					height: 100%
+					position: relative
+					z-index: 3
+					&:hover
+						cursor: pointer
+				&:hover:after
+					position: absolute
+					left: -100px
+					bottom: -10px
+					opacity: 1
+					transition: left .2s ease, bottom .05s ease, opacity .4s ease
+				&.active
+					background: $yellow_1
+					transition: background 1s ease
+					&:before
+						border: 1px solid $yellow_1
+						transition: border 1.5s ease
+					&:after
+						color: $yellow_1
+				&:before
+					content: ''
+					width: 26px
+					height: 26px
+					position: absolute
+					border: 1px solid $gris_2
+					border-radius: 50%
+					right: -6px
+					bottom: -6px
+					transition: border 1.5s ease
+				&:after
+					left: 60px
+					position: absolute
+					bottom: -10px
+					opacity: 0
+					transition: left .1s ease, bottom .025s ease, opacity .1s ease
+					font-size: 1.6em
+				&.inicio:after
+					content: 'Inicio'
+				&.servicios:after
+					content: 'Servicios'
+				&.chamba:after
+					content: 'Chamba'
+				&.contacto:after
+					content: 'Contacto'
+
 	.main-banner
 		padding-top: 250px
 	.back-dog
 		background-position: 0px center
 		background-size: 600px
+	.clients
+		margin-top: -1px
+	.sent_mail_alert
+		width: 95%
