@@ -10,5 +10,6 @@
         <footer>@include('partials.footer')</footer>
         <script src="js/app.js"></script>
         @include('partials.google')
+        @include('partials.hotjar')
     </body>
 </html>
