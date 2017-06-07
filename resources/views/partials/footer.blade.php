@@ -36,7 +36,10 @@
 		<p>
 			Ottawa 1129, Col. Italia Providencia <br>
 			Guadalajara, Jal. Mex. <br>
-			<a class="white" href="tel: +52 3111 9004">+52 3111 9004</a>
+			Teléfonos: <br>
+			<a class="white" href="tel:33 3817 4307">(33) 3817-4307</a> &nbsp; // &nbsp; 
+			<a class="white" href="tel:33 3817 0788">(33) 3817-0788</a> &nbsp; // &nbsp; 
+			<a class="white" href="tel:33 3817 6705">(33) 3817-6705</a>
 		</p>
 		<hr>
 		<p>
