@@ -1,3 +1,2 @@
-<link rel="stylesheet" href="css/icons-font.css">
-<link rel="stylesheet" href="css/magic.css">
-<link rel="stylesheet" href="css/app.css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Titillium+Web:900" rel="stylesheet">
+<link rel="stylesheet" href="css/all.css">
