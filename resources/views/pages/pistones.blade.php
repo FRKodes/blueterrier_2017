@@ -16,8 +16,8 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
 				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
-					<strong>PISTONES GARAGE</strong> es un proyecto del que nos sentimos parte, ya que hemos estado con ellos casi desde sus inicios y lo hemos visto crecer con el paso del tiempo. <br><br>
-					Nos hemos encargado de llevar las aplicaciones de la marca en el entorno digital, desde la gestión de sus redes sociales hasta el diseño y desarrollo de su sitio web.
+					Más que un cliente <strong>PISTONES GARAGE</strong> se ha convertido en un socio comercial con el que hemos crecido juntos, brindandonos su confianza para el manejo de su marca desde el entorno digital hasta la presencia en cada una de sus siete sucursales a lo largo del país. <br><br>
+					<strong>Diseño y Desarrollo Web</strong> del <strong>sitio corporativo</strong>, gestión de <strong>redes sociales</strong> y <strong>branding</strong> son algunos de los servicios que hemos llevado a cabo para el taller de los deportes.
 				</p>
 			</div>
 

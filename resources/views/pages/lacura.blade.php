@@ -16,8 +16,8 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
 				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
-					<strong>La Cura</strong> es un restaurante de mariscos nacido en la ciudad de Hermosillo, Sonora. <br><br>
-					Siempre con la premisa de ofrecer a sus clientes sólo lo mejor de la cocina del mar, tenemos el privilegio de llevar la gestión de sus redes sociales, así como diseñado aplicaciones físicas como menús y piezas de uso diario. <br><br>
+					Originario de la ciudad de Hermosillo Sonora, <strong>La Cura</strong> es un restaurant de mariscos que tiene como premisa siempre ofrecer a sus clientes lo mejor de la comida del mar con los ingredientes más frescos (originarios de  hermosillo) y de la mejor calidad. <br><br>
+					El <strong>diseño de aplicaciones</strong> físicas como menús, publicidad impresa, anuncios de prensa, la gestión de sus <strong>redes sociales</strong> y <strong>producción fotográfica</strong> son algunos de los servicios que hemos desarrollado a lo largo de poco más de un año.
 				</p>
 			</div>
 

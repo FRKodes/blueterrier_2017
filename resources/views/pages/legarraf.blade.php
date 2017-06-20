@@ -16,26 +16,18 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
 				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
-					<strong>Le Garraf</strong> nace en el 2014 con el objetivo de ofrecer una opción: fresca, original y divertida a los antojos de la sociedad tapatía. <br><br>
-					Desde el principio, la intención fue crear una atmósfera única ofreciendo sabores de nieve artesanal fuera de lo convencional con la posibilidad de mezclarlos con una gran variedad de toppings, que son el complemento perfecto para probar una <strong>nieve como nunca lo habías  hecho antes</strong>.</p>
+					El objetivo fue claro desde el principio, consolidar en digital una de las neverias más icónicas en la sociedad tapatía, <strong>Le Garraf</strong> se caracteriza por ofrecer nieve artesanal de garrafa con sabores poco convencionales y una gran variedad de toppings para acompañarlos. <br><br>
+					En un par de meses hemos logrado duplicar la comunidad de Le Garraf en sus canales de <strong>redes sociales</strong> y exponenciar su alcance, creando contenidos digitales divertidos, atractivos en distintos formatos, además de una exaustiva labor de gestión en la resolución de dudas y seguimiento a inquietudes de sus clientes.
+				</p>
 			</div>
 
 			<div class="images-container col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 ">
 				<figure><img src="images/le-garraf-web-01.jpg" alt="proyecto le garraf web 01"></figure>
-				
-				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nobis natus laboriosam voluptas saepe fugiat soluta distinctio modi aperiam debitis. Similique, dolorem possimus, debitis quae consequatur nostrum corporis quasi labore!</p> --}}
-				
 				<figure><img src="images/le-garraf-web-03.jpg" alt="proyecto le garraf web 03"></figure>
-				
-				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, qui laudantium. Sint, ab, illum! Consequatur est ad praesentium, earum ex totam suscipit, et perspiciatis, quae quis maxime voluptatem animi harum?</p> --}}
-				
 				<figure><img src="images/le-garraf-web-05.jpg" alt="proyecto le garraf web 05"></figure>
 				<figure><img src="images/le-garraf-web-06.jpg" alt="proyecto le garraf web 06"></figure>
 				<figure><img src="images/le-garraf-web-07.jpg" alt="proyecto le garraf web 07"></figure>
 				<figure><img src="images/le-garraf-web-08.jpg" alt="proyecto le garraf web 08"></figure>
-				
-				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet quos, consequuntur eaque nobis quas itaque, ipsam at tempore ipsum iusto reiciendis quasi cupiditate aperiam, consectetur dignissimos, accusantium vitae reprehenderit?</p> --}}
-
 			</div>
 
 			<div class="col-xs-12 m-t-40 m-b-40 text-center">
