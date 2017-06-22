@@ -84,7 +84,7 @@
 				</div>
 				<h2 class="titillium text-center m-t-80"><span class="blue_1">LA</span> <span class="blue_2">CHAMBA</span></h2>
 				<div class="text-center col-sm-8 col-sm-offset-2">
-					<p>Siempre ponemos un poco de nosotros en nuestro trabajo combinado con el ADN de la marca, investigación y un chingo de creatividad.</p>
+					<p>Siempre ponemos un poco de nosotros en nuestro trabajo combinado con el ADN de la marca, investigación y mucha creatividad.</p>
 				</div>
 			</div>
 		</div>
@@ -93,12 +93,15 @@
 	<div class="container-fluid clients back_gray_1">
 		<div class="row">
 			<div class="container">
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto BOREAL" href="{{ url('proyecto-branding-boreal') }}"><img src="images/boreal-logo.svg" alt="boreal logo"></a></div>
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto PISTONES GARAGE" href="{{ url('proyecto-desarrollo-web-pistones') }}"><img src="images/pistones-logo.svg" alt="pistones logo"></a></div>
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto GRILL POINT" href="{{ url('proyecto-social-media-grill-point') }}"><img src="images/grillpoint-logo.svg" alt="grillpoint logo"></a></div>
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto MARSALA" href="{{ url('proyecto-desarrollo-web-marsala') }}"><img src="images/marsala-logo.svg" alt="marsala logo"></a></div>
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto LA CURA" href="{{ url('proyecto-social-media-la-cura') }}"><img src="images/la-cura-logo.svg" class="la-cura" alt="la cura logo"></a></div>
-				<div class="col-xs-6 col-sm-4"><a title="Ver proyecto LE GARRAF" href="{{ url('proyecto-desarrollo-web-le-garraf') }}"><img src="images/le-garraf-logo.svg" alt="le garraf logo"></a></div>
+				<div class="row">
+					
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto BOREAL" href="{{ url('proyecto-branding-boreal') }}"><img src="images/proyecto-desarrollo-web-boreal.jpg" alt="proyecto desarrollo web boreal"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto PISTONES GARAGE" href="{{ url('proyecto-desarrollo-web-pistones') }}"><img src="images/proyecto-integral-pistones.jpg" alt="proyecto integral pistones"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto TRANSPADEX" href="{{ url('proyecto-social-media-grill-point') }}"><img src="images/proyecto-desarrollo-web-transpadex.jpg" alt="proyecto desarrollo web transpadex"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto MARSALA" href="{{ url('proyecto-desarrollo-web-marsala') }}"><img src="images/proyecto-desarrollo-e-commerce-marsala.jpg" alt="proyecto desarrollo e-commerce marsala"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto LA CURA" href="{{ url('proyecto-social-media-la-cura') }}"><img src="images/proyecto-social-media-la-cura.jpg" alt="proyecto social media la cura"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto LE GARRAF" href="{{ url('proyecto-desarrollo-web-le-garraf') }}"><img src="images/proyecto-desarrollo-web-le-garraf.jpg" alt="proyecto desarrollo web le garraf"></a></div>
+				</div>
 				<div class="col-xs-12 m-t-40 m-b-40 text-center">
 					<p>Ingresa a nuestro perfil de behance para ver más de nuestro trabajo.</p>
 					<a href="https://www.behance.net/blueterrierstudio" target="_blank" title="Ver portafolio completo en BEHANCE"><img src="images/behance-btn.svg" alt="behance button"></a>

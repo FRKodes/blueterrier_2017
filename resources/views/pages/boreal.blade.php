@@ -16,8 +16,8 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
 				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
-					<strong>BOREAL</strong> es un taller de conversión de automóviles a "GAS GNV" (Gas Natural Vehicular). <br><br>
-					El desarrollo Web es el de un sitio web de contenido estático, diseñado y desarrollado para verse perfecto en cualquier dispositivo conectado a internet (Smartphone, Table, PC, Laptop, SmarTV, etc.)
+					<strong>BOREAL</strong> es una empresa de conversión vehicular a gas natural vehicular (GNV), que busca apoyar la economía de empresas y particulares ofreciendo una opción más económica en el consumo de combustible, además de ser una opción menos contaminante. <br><br>
+					<strong>Crear una marca desde cero</strong> siempre es una gran responsabilidad, es por ello que agradecemos la confianza de <strong>grupo BOUGO</strong> el encomendarnos una más de sus marcas, desde el proceso de <strong>naming</strong>, <strong>diseño de logotipo</strong>, <strong>diseño</strong> y <strong>desarrollo web</strong>, hasta folletería institucional y publicitaria.
 				</p>
 			</div>
 

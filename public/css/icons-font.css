@@ -41,9 +41,36 @@
 .icon-behance:before {
   content: "\61";
 }
-.icon-facebook:before {
+.icon-behance-logo:before {
   content: "\62";
 }
-.icon-instagram:before {
+.icon-boreal:before {
   content: "\63";
+}
+.icon-bt-dog:before {
+  content: "\64";
+}
+.icon-facebook:before {
+  content: "\65";
+}
+.icon-grillpoint:before {
+  content: "\66";
+}
+.icon-instagram:before {
+  content: "\67";
+}
+.icon-lacura:before {
+  content: "\68";
+}
+.icon-legarraf:before {
+  content: "\69";
+}
+.icon-marsala:before {
+  content: "\6a";
+}
+.icon-pistones:before {
+  content: "\6b";
+}
+.icon-transpadex:before {
+  content: "\6c";
 }
