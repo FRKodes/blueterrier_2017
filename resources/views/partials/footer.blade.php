@@ -22,8 +22,7 @@
 				*Los campos con el contorno rojo son obligatorios.
 			</div>
 			<div class="form-group{{ $errors->has('submit') ? ' has-error' : '' }} text-center">
-			    {!! Form::submit('ENVIAR', ['class' => 'titillium submit']) !!}
-			    <small class="text-danger">{{ $errors->first('submit') }}</small>
+			    {!! Form::submit('Contáctanos', ['class' => 'titillium submit']) !!}
 			</div>
 			<div class="col-xs-12 col-sm-10 sent_mail_alert text-center">
 				<p>¡Gracias!</p>
@@ -36,12 +35,13 @@
 		<p>
 			Ottawa 1129, Col. Italia Providencia <br>
 			Guadalajara, Jal. Mex. <br>
-			Teléfonos: <br>
-			<a class="white" href="tel:33 3817 4307">(33) 3817-4307</a> &nbsp; // &nbsp; 
-			<a class="white" href="tel:33 3817 0788">(33) 3817-0788</a> &nbsp; // &nbsp; 
-			<a class="white" href="tel:33 3817 6705">(33) 3817-6705</a>
+			Teléfono: <a class="white" href="tel:33 3817 4307">(33) 3817-4307</a>
 		</p>
-		<hr>
+	</div>
+
+	<hr class="col-xs-12 col-md-6 col-md-offset-3">
+
+	<div class="col-xs-12 text-center white">
 		<p>
 			Playa del Carmen <br>
 			Quintana Roo, Mx. <br>

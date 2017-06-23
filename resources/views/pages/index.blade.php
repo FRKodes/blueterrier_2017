@@ -16,7 +16,7 @@
 				<p class="topic yellow_1">WEB DEV</p>
 			</div>
 			<div class="help-button titillium">
-				<a class="help-you" href="#contacto">¿TE AYUDAMOS?</a>
+				<a class="help-you" href="#contacto">¿Necesitas ayuda?</a>
 			</div>
 		</div>
 		<div class="hand-container text-center"><div class="hand animate-hand"></div></div>
@@ -39,10 +39,10 @@
 		<div class="row">
 			<div class="container">
 				<div class="service-container">
-					<div class="col-xs-12 col-sm-5 service-icon-container">
+					<div class="col-xs-12 col-sm-4 col-sm-offset-1 service-icon-container">
 						<div class="service-icon animate-web web"></div>
 					</div>
-					<div class="col-xs-12 col-sm-7 service-info-container">
+					<div class="col-xs-12 col-sm-6 service-info-container">
 						<h2 class="block-title"><span class="blue_1">WEB</span> DESIGN</h2>
 						<p class="white">Conquistar el mundo a un clic de distancia.</p>
 						<p class="white">La presencia web se ha vuelto una necesidad fundamental, el sitio web es una sucursal funcionando 24/7 los 365 días del año. ¡Lo sabemos! Por eso cada uno de nuestros desarrollos es único enfocado a la usabilidad, experiencia y satisfacción del usuario.</p>
@@ -53,7 +53,7 @@
 					<div class="col-xs-12 col-sm-5 service-icon-container branding-block">
 						<div class="service-icon animate-branding branding"></div>
 					</div>
-					<div class="col-xs-12 col-sm-7 service-info-container">
+					<div class="col-xs-12 col-sm-5 col-sm-offset-2 service-info-container">
 						<h2 class="block-title">BRANDING</h2>
 						<p class="white">Una marca no se construye de la noche a la mañana ni es motivo de la casualidad.</p>
 						<p class="white">Estamos convencidos que una gran marca se construye día a día con la pasión y el trabajo duro de todos los que trabajan en ella. Es por eso que nos encanta construir una marca desde cero o reconstruirla y ayudarla a crear una identidad propia con valores definidos que deje huella en su mercado.</p>
@@ -61,10 +61,10 @@
 				</div>
 
 				<div class="service-container m-b-80">
-					<div class="col-xs-12 col-sm-5 service-icon-container">
+					<div class="col-xs-12 col-sm-4 col-sm-offset-1 service-icon-container">
 						<div class="service-icon animate-mkt mkt"></div>
 					</div>
-					<div class="col-xs-12 col-sm-7 service-info-container">
+					<div class="col-xs-12 col-sm-6 service-info-container">
 						<h2 class="block-title"><span class="blue_1">DIGITAL</span> MKT</h2>
 						<p class="white">Diálogo bilateral, comunidades exitosas y soluciones en tiempo real es lo de hoy.</p>
 						<p class="white">Nos hemos convertido en seres digitales, adaptándonos de forma natural a la hiperconectividad, smartphone, tablets incluso el smartTV, son una oportunidad para que tu marca llegue de manera contundente a tu audiencia.</p>
@@ -72,16 +72,20 @@
 				</div>
 				
 			</div>
+			
+			
+			<div class="btn-line text-center">
+				<div class="submit titillium"><a class="interesado" href="#contacto">¡Lleva a tu marca más allá!</a></div>
+			</div>
+
+
 		</div>
 
 	</div>
 
 	<div class="container-fluid la-chamba" id="chamba">
 		<div class="row">
-			<div class="container p-t-60 p-b-60">
-				<div class="btn-line text-center m-t--80">
-					<div class="submit titillium"><a class="interesado blue_2" href="#contacto">¿INTERESADO?</a></div>
-				</div>
+			<div class="container p-b-60">
 				<h2 class="titillium text-center m-t-80"><span class="blue_1">LA</span> <span class="blue_2">CHAMBA</span></h2>
 				<div class="text-center col-sm-8 col-sm-offset-2">
 					<p>Siempre ponemos un poco de nosotros en nuestro trabajo combinado con el ADN de la marca, investigación y mucha creatividad.</p>
@@ -95,16 +99,16 @@
 			<div class="container">
 				<div class="row">
 					
-					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto BOREAL" href="{{ url('proyecto-branding-boreal') }}"><img src="images/proyecto-desarrollo-web-boreal.jpg" alt="proyecto desarrollo web boreal"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto LE GARRAF" href="{{ url('proyecto-desarrollo-web-le-garraf') }}"><img src="images/proyecto-desarrollo-web-le-garraf.jpg" alt="proyecto desarrollo web le garraf"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto PISTONES GARAGE" href="{{ url('proyecto-desarrollo-web-pistones') }}"><img src="images/proyecto-integral-pistones.jpg" alt="proyecto integral pistones"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto LA CURA" href="{{ url('proyecto-social-media-la-cura') }}"><img src="images/proyecto-social-media-la-cura.jpg" alt="proyecto social media la cura"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto TRANSPADEX" href="{{ url('proyecto-social-media-grill-point') }}"><img src="images/proyecto-desarrollo-web-transpadex.jpg" alt="proyecto desarrollo web transpadex"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto MARSALA" href="{{ url('proyecto-desarrollo-web-marsala') }}"><img src="images/proyecto-desarrollo-e-commerce-marsala.jpg" alt="proyecto desarrollo e-commerce marsala"></a></div>
-					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto LA CURA" href="{{ url('proyecto-social-media-la-cura') }}"><img src="images/proyecto-social-media-la-cura.jpg" alt="proyecto social media la cura"></a></div>
-					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto LE GARRAF" href="{{ url('proyecto-desarrollo-web-le-garraf') }}"><img src="images/proyecto-desarrollo-web-le-garraf.jpg" alt="proyecto desarrollo web le garraf"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto BOREAL" href="{{ url('proyecto-branding-boreal') }}"><img src="images/proyecto-desarrollo-web-boreal.jpg" alt="proyecto desarrollo web boreal"></a></div>
 				</div>
 				<div class="col-xs-12 m-t-40 m-b-40 text-center">
 					<p>Ingresa a nuestro perfil de behance para ver más de nuestro trabajo.</p>
-					<a href="https://www.behance.net/blueterrierstudio" target="_blank" title="Ver portafolio completo en BEHANCE"><img src="images/behance-btn.svg" alt="behance button"></a>
+					<a class="icon-behance-logo" href="https://www.behance.net/blueterrierstudio" target="_blank" title="Ver portafolio completo en BEHANCE"></a>
 				</div>
 			</div>
 		</div>

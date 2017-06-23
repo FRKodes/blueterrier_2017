@@ -60,11 +60,17 @@ p
 textarea
 	resize: none
 .submit
-	background-color: $blue_1
-	color: $blue_2
+	background-color: $yellow_1
+	color: white
 	border: none
 	padding: 4px 12px
 	font-size: 1.2em
+	transition: color .3s ease
+	box-shadow: -2px 2px 8px $blue_1
+	border-radius: 2px
+	&:hover
+		color: $blue_1
+		transition: color .3s ease
 @keyframes background-moves
   0% { background-position: left bottom }
   8% { background-position: right bottom }
@@ -135,13 +141,20 @@ body
 				transition: opacity .5s ease
 
 	.help-button
-		border: 1px solid $blue_2
+		background-color: $yellow_1
+		border-radius: 2px
 		display: inline-flex
 		padding: 4px 12px
 		position: relative
 		bottom: 20px
+		box-shadow: -2px 2px 8px $blue_1
 		a
-			color: $blue_2
+			color: white
+			transition: color .3s ease
+			&:hover
+				color: $blue_1
+				text-decoration: none
+				transition: color .3s ease
 .hand
 	background: transparent url(/images/sprite-touch-icon.png) no-repeat left bottom
 	width: 60px
@@ -170,8 +183,21 @@ body
 .btn-line
 	position: relative
 	z-index: 3
+	margin-top: 30px
+	margin-bottom: 30px
 	.submit
 		display: inline
+		background-color: $yellow_1
+		box-shadow: -2px 2px 8px $blue_1
+		border-radius: 2px
+		a
+			color: white
+			font-size: 1.2em
+			transition: color .3s ease
+			&:hover
+				color: $blue_1
+				text-decoration: none
+				transition: color .3s ease
 .service-container:first-of-type
 	margin-top: 40px
 .clients
@@ -190,6 +216,22 @@ body
 				width: 100%
 				height: auto
 				display: block
+.icon-behance-logo
+	background-color: $yellow_1
+	color: white
+	border-radius: 2px
+	font-size: 5em
+	padding: 4px 20px
+	overflow: hidden
+	height: 40px
+	display: inline-flex
+	justify-content: center
+	align-items: center
+	box-shadow: -2px 2px 8px $blue_1
+	transition: color .3s ease
+	&:hover
+		color: $blue_1
+		transition: color .3s ease
 /*PROJECT DETAIL*/
 .project-detail
 	figure

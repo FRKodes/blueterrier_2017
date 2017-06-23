@@ -23,19 +23,10 @@
 
 			<div class="images-container col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 ">
 				<figure><img src="images/boreal-branding-01.jpg" alt="proyecto BOREAL web 01"></figure>
-				
-				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nobis natus laboriosam voluptas saepe fugiat soluta distinctio modi aperiam debitis. Similique, dolorem possimus, debitis quae consequatur nostrum corporis quasi labore!</p> --}}
-				
 				<figure><img src="images/boreal-branding-03.jpg" alt="proyecto BOREAL web 03"></figure>
 				<figure><img src="images/boreal-branding-04.jpg" alt="proyecto BOREAL web 04"></figure>
-				
-				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, qui laudantium. Sint, ab, illum! Consequatur est ad praesentium, earum ex totam suscipit, et perspiciatis, quae quis maxime voluptatem animi harum?</p> --}}
-				
 				<figure><img src="images/boreal-branding-07.jpg" alt="proyecto BOREAL web 07"></figure>
 				<figure><img src="images/boreal-branding-08.jpg" alt="proyecto BOREAL web 08"></figure>
-				
-				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet quos, consequuntur eaque nobis quas itaque, ipsam at tempore ipsum iusto reiciendis quasi cupiditate aperiam, consectetur dignissimos, accusantium vitae reprehenderit?</p> --}}
-
 			</div>
 
 			<div class="col-xs-12 m-t-40 m-b-40 text-center">
