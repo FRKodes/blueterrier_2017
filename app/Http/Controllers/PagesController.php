@@ -32,6 +32,11 @@ class PagesController extends Controller
 		return View('pages.grillpoint');
 	}
 
+	public function transpadex()
+	{
+		return View('pages.transpadex');
+	}
+
 	public function lacura()
 	{
 		return View('pages.lacura');
