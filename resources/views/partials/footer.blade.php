@@ -33,9 +33,10 @@
 
 	<div class="col-xs-12 text-center white m-t-40">
 		<p>
-			Ottawa 1129, Col. Italia Providencia <br>
+			Edificio MIND Piso 1 Interior 1X <br>
+			Av. Faro 2350 Col. Verde Valle <br>
 			Guadalajara, Jal. Mex. <br>
-			Teléfono: <a class="white" href="tel:33 3817 4307">(33) 3817-4307</a>
+			Teléfono: <a class="white" href="tel:33 4445 4818">(33) 4445-4818</a>
 		</p>
 	</div>
 
