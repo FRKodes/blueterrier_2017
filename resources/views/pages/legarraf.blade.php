@@ -2,6 +2,8 @@
 
 @section('title', 'Le Garraf es un proyecto que nos dió la libertad de experimentar con diferentes texturas a lo largo del diseño web, así como una gran satisfacción al momento de lanzar el desarrollo web para la marca.')
 
+@section('description', 'Le Garraf ofrece a sus clientes la tradicional nieve de garrafa con un toque distinto, agregando toppings, agregando sabores y elementos nada convencionales. Tuvimos la oportunidad de colaborar con ellos desarrollando su sitio web, resaltando la identidad de la marca y mostrando porqué son los mejores.')
+
 @section('content')
 	<div class="container-fluid back-blue_1 m-b-40 p-b-20">
 		<div class="row">

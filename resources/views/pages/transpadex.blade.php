@@ -1,6 +1,8 @@
 @extends('layout')
 
-@section('title', '')
+@section('title', 'TRANSPADEX LOGISTICS, Proyecto Desarrollo Web Corporativo de contenido estático')
+
+@section('description', 'TRANSPADEX LOGISTICS es una empresa de transporte de carga "express" con oficinas en distintos puntos del país y con sus oficinas centrales en la ciudad de Guadalajara, Jalisco México. Desarrollamos su sitio web corporativo que logra comunicar correctamente sus cualidades como una empresa confiable, dinámica, con una óptima capacidad de respuesta.')
 
 @section('content')
 	<div class="container-fluid back-blue_1 m-b-40 p-b-20">

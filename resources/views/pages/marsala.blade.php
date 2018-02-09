@@ -2,6 +2,8 @@
 
 @section('title', 'MARSALA es un desarrollo Web con E-commerce, siempre con la premisa "less is more" en su diseño, el cual puede ser administrado en su totalidad por el cliente, productos, categorías y el contenido de las páginas.')
 
+@section('description', 'MARSALA es una compañia de productos premium de piel para viajeros, estamos orgullosos de haber colaborado con ellos en el desarrollo de si E-commerce agreando presencia online a la marca y abriendo toda una nueva gama posibilidades en cuanto a ventas se refiere.')
+
 @section('content')
 	<div class="container-fluid back-blue_1 m-b-40 p-b-20">
 		<div class="row">

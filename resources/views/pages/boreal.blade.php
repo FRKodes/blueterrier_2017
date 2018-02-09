@@ -2,6 +2,8 @@
 
 @section('title', 'BOREAL es un desarrollo Web de contenido estático, diseñado y desarrollado para verse perfecto en cualquier dispositivo conectado a internet (Smartphone, Table, PC, Laptop, SmarTV, etc.)')
 
+@section('description', 'BOREAL es una empresa de conversión vehicular a gas natural vehicular (GNV), que busca apoyar la economía de empresas y particulares ofreciendo una opción más económica en el consumo de combustible. Agradecemos la confianza de grupo BOUGO al encomendarnos una más de sus marcas, desde el proceso de naming, diseño de logotipo, diseño y desarrollo web, hasta folletería institucional y publicitaria.')
+
 @section('content')
 	<div class="container-fluid back-blue_1 m-b-40 p-b-20">
 		<div class="row">

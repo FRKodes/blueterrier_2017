@@ -47,6 +47,11 @@ class PagesController extends Controller
 		return View('pages.pistones');
 	}
 
+	public function wys()
+	{
+		return View('pages.wys');
+	}
+
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)

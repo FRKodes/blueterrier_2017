@@ -2,6 +2,8 @@
 
 @section('title', 'PISTONES GARAGE es un proyecto en el que hemos desarrollado aplicaciones de la marca en el entorno digital, desde la gestión de sus redes sociales hasta el diseño y desarrollo de su sitio web.')
 
+@section('description', 'Más que un cliente PISTONES GARAGE se ha convertido en un socio comercial con el que hemos crecido juntos, estamos orgullosos de colaborar con ellos en el Diseño y Desarrollo Web del sitio corporativo, gestión de redes sociales y branding, éstos son algunos de los servicios que hemos llevado a cabo para el taller de los deportes.')
+
 @section('content')
 	<div class="container-fluid back-blue_1 m-b-40 p-b-20">
 		<div class="row">
