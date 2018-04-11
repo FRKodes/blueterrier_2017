@@ -52,6 +52,16 @@ class PagesController extends Controller
 		return View('pages.wys');
 	}
 
+	public function gyb()
+	{
+		return View('pages.gyb');
+	}
+
+	public function selcon()
+	{
+		return View('pages.selcon');
+	}
+
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)

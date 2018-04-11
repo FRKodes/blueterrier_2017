@@ -20,6 +20,8 @@
 				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
 					TRANSPADEX Logistics es una empresa de transporte de carga "express" con oficinas en distintos puntos del país y con sus oficinas centrales en la ciudad de Guadalajara, Jalisco México. <br><br>
 					El cometido de este proyecto siempre fue lograr una conjunción entre el <strong>diseño</strong> y la <strong>usabilidad del sitio web</strong>, que lograra comunicar correctamente sus cualidades como una <strong>empresa confiable</strong>, dinámica, con una óptima <strong>capacidad de respuesta</strong> y que se encuentra en una etapa de crecimiento acelerado, consolidando el trabajo de la compañía por más de 25 años en el mercado. <br><br>
+					Link: <br>
+					<a href="http://www.transpadex.com/" target="_blank" title="Ver página de TRANSPADEX Logistics">www.transpadex.com</a>
 				</p>
 			</div>
 

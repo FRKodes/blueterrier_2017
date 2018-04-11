@@ -16,7 +16,7 @@
 				<p class="topic yellow_1">WEB DEV</p>
 			</div>
 			<div class="help-button titillium">
-				<a class="help-you" href="#contacto">¿Necesitas ayuda?</a>
+				<a class="help-you" href="#contacto">¿NECESITAS AYUDA?</a>
 			</div>
 		</div>
 		<div class="hand-container text-center"><div class="hand animate-hand"></div></div>
@@ -28,7 +28,7 @@
 				<div class="col-sm-8 col-sm-offset-2">
 					<h2 class="block-title"><span class="blue_1">LOS</span> <span class="blue_2">SERVICIOS</span></h2>
 					<p class="text-center">
-						Ayudamos a las marcas a alcanzar su potencial a través de servicios que les permiten tener voz y una fuerte identidad frente al mercado y su competencia.
+						Ayudamos a nuestros clientes a alcanzar sus objetivos a través de productos digitales (<strong>Branding</strong>, <strong>Diseño y Desarrollo Web</strong>, <strong>Marketing Digital</strong>) que les permiten tener voz y una fuerte identidad frente al mercado y su competencia en el ámbito digital.
 					</p>
 				</div>
 			</div>
@@ -75,7 +75,7 @@
 			
 			
 			<div class="btn-line text-center">
-				<div class="submit titillium"><a class="interesado" href="#contacto">¡Lleva a tu marca más allá!</a></div>
+				<div class="submit titillium"><a class="interesado" href="#contacto">¡LLEVA A TU MARCA MÁS ALLÁ!</a></div>
 			</div>
 
 
@@ -88,7 +88,7 @@
 			<div class="container p-b-60">
 				<h2 class="titillium text-center m-t-80"><span class="blue_1">LA</span> <span class="blue_2">CHAMBA</span></h2>
 				<div class="text-center col-sm-8 col-sm-offset-2">
-					<p>Siempre ponemos un poco de nosotros en nuestro trabajo combinado con el ADN de la marca, investigación y mucha creatividad.</p>
+					<p>Siempre ponemos un poco de nosotros en cada proyecto, un toque personal, de nuestra pasión por hacer las cosas lo mejor posible... combinado con el ADN de la marca, investigación y mucha creatividad, logramos generar proyectos que inspiran, que despiertan emociones y que transmiten ideas y mensajes que nuestros clientes quieren hacer llegar a su público objetivo y clientes potenciales.</p>
 				</div>
 			</div>
 		</div>
@@ -100,11 +100,15 @@
 				<div class="row">
 					
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto LE GARRAF" href="{{ url('proyecto-desarrollo-web-le-garraf') }}"><img src="images/proyecto-desarrollo-web-le-garraf.jpg" alt="proyecto desarrollo web le garraf"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto GYB Maquinaria pesada" href="{{ url('proyecto-desarrollo-web-gyb') }}"><img src="images/proyecto-desarrollo-web-gyb.jpg" alt="proyecto desarrollo web GYB Maquinaria pesada"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto PISTONES GARAGE" href="{{ url('proyecto-desarrollo-web-pistones') }}"><img src="images/proyecto-integral-pistones.jpg" alt="proyecto integral pistones"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto WOOD &amp; STONE" href="{{ url('proyecto-desarrollo-web-wood-and-stone') }}"><img src="images/wood-and-stone-blue-terrier-studio.jpg" alt="proyecto desarollo web "></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto TRANSPADEX" href="{{ url('proyecto-desarrollo-web-transpadex') }}"><img src="images/proyecto-desarrollo-web-transpadex.jpg" alt="proyecto desarrollo web transpadex"></a></div>
-					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto MARSALA" href="{{ url('proyecto-desarrollo-web-marsala') }}"><img src="images/proyecto-desarrollo-e-commerce-marsala.jpg" alt="proyecto desarrollo e-commerce marsala"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto BOREAL" href="{{ url('proyecto-branding-selcon') }}"><img src="images/proyecto-branding-selcon.jpg" alt="proyecto branding SELCON"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto BOREAL" href="{{ url('proyecto-branding-boreal') }}"><img src="images/proyecto-desarrollo-web-boreal.jpg" alt="proyecto desarrollo web boreal"></a></div>
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto MARSALA" href="{{ url('proyecto-desarrollo-web-marsala') }}"><img src="images/proyecto-desarrollo-e-commerce-marsala.jpg" alt="proyecto desarrollo e-commerce marsala"></a></div>
+					
+
 				</div>
 				<div class="col-xs-12 m-t-40 m-b-40 text-center">
 					<p>Ingresa a nuestro perfil de behance para ver más de nuestro trabajo.</p>

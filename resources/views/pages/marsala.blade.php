@@ -19,8 +19,11 @@
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
 				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
 					Las necesidades de <strong>MARSALA</strong> eran puntuales, un sitio web en el cual pudieran exhibir sus productos y realizar ventas conservando la esencia minimalista y sofisticada con las que la marca fue concebida.
-					Siempre con la premisa "less is more" en mente, el equipo de desarrollo web elaboro un <strong>sitio E-commerce</strong> totalmente administrable y a la medida de las necesidades de MARSALA, contemplando una <strong>experiencia de usuario (UX)</strong> intuitiva así como una <strong>interfaz de usuario (UI)</strong> limpia y clara que lo invite a interactuar, generando conversiones.
+					Siempre con la premisa "less is more" en mente, el equipo de desarrollo web elaboro un <strong>sitio E-commerce</strong> totalmente administrable y a la medida de las necesidades de MARSALA, contemplando una <strong>experiencia de usuario (UX)</strong> intuitiva así como una <strong>interfaz de usuario (UI)</strong> limpia y clara que lo invite a interactuar, generando conversiones. <br><br>
+					Link: <br>
+					<a href="https://www.marsalamarsala.com/" target="_blank" title="Ver e-commerce de marsala">www.marsalamarsala.com</a>
 				</p>
+				
 			</div>
 
 			<div class="images-container col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 ">

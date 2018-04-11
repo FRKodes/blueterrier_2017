@@ -19,7 +19,9 @@
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
 				<p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">
 					El objetivo fue claro desde el principio, consolidar en digital una de las neverias más icónicas en la sociedad tapatía, <strong>Le Garraf</strong> se caracteriza por ofrecer nieve artesanal de garrafa con sabores poco convencionales y una gran variedad de toppings para acompañarlos. <br><br>
-					En un par de meses hemos logrado duplicar la comunidad de Le Garraf en sus canales de <strong>redes sociales</strong> y exponenciar su alcance, creando contenidos digitales divertidos, atractivos en distintos formatos, además de una exaustiva labor de gestión en la resolución de dudas y seguimiento a inquietudes de sus clientes.
+					En un par de meses hemos logrado duplicar la comunidad de Le Garraf en sus canales de <strong>redes sociales</strong> y exponenciar su alcance, creando contenidos digitales divertidos, atractivos en distintos formatos, además de una exaustiva labor de gestión en la resolución de dudas y seguimiento a inquietudes de sus clientes. <br><br>
+					Link: <br>
+					<a href="http://www.legarraf.mx/" target="_blank" title="Ver página de LE GARRAF">www.legarraf.mx</a>
 				</p>
 			</div>
 
