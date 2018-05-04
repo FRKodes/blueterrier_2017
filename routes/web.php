@@ -20,4 +20,5 @@ Route::get('proyecto-desarrollo-web-pistones', 'PagesController@pistones');
 Route::get('proyecto-desarrollo-web-wood-and-stone', 'PagesController@wys');
 Route::get('proyecto-desarrollo-web-gyb', 'PagesController@gyb');
 Route::get('proyecto-branding-selcon', 'PagesController@selcon');
+Route::get('proyecto-desarrollo-web-codimuba', 'PagesController@codimuba');
 Route::post('sendmail', 'PagesController@sendmail');

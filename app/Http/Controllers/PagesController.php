@@ -62,6 +62,11 @@ class PagesController extends Controller
 		return View('pages.selcon');
 	}
 
+	public function codimuba()
+	{
+		return View('pages.codimuba');
+	}
+
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)

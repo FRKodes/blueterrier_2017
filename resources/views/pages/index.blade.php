@@ -107,8 +107,7 @@
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto BOREAL" href="{{ url('proyecto-branding-selcon') }}"><img src="images/proyecto-branding-selcon.jpg" alt="proyecto branding SELCON"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto BOREAL" href="{{ url('proyecto-branding-boreal') }}"><img src="images/proyecto-desarrollo-web-boreal.jpg" alt="proyecto desarrollo web boreal"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto MARSALA" href="{{ url('proyecto-desarrollo-web-marsala') }}"><img src="images/proyecto-desarrollo-e-commerce-marsala.jpg" alt="proyecto desarrollo e-commerce marsala"></a></div>
-					
-
+					<div class="col-xs-12 col-sm-4 project-item"><a title="Ver proyecto CODIMUBA" href="{{ url('proyecto-desarrollo-web-codimuba') }}"><img src="images/proyecto-desarrollo-web-codimuba.jpg" alt="proyecto desarrollo web CODIMUBA"></a></div>
 				</div>
 				<div class="col-xs-12 m-t-40 m-b-40 text-center">
 					<p>Ingresa a nuestro perfil de behance para ver más de nuestro trabajo.</p>
