@@ -1,9 +1,6 @@
 @extends('layout')
-
 @section('title', 'Proyecto Desarrollo Web Administrable Wood and Stone, expertos en comercialización y distribución de recubrimientos de lujo, mármoles y maderas de ingeniería.')
-
 @section('description', 'Wood and Stone cuenta con importante trayectoria en la industria de los recubrimientos de lujo en México, como son mármoles y maderas de ingenería. Tuvimos la oportunidad de colaborar con Wood &amp; Stone en el desarrollo de su sitio web administrable mediante CMS. El reto, desde un inicio, fue darle vida a las texturas y materiales que Wood and Stone comercializa, dejando atrás los catálogos convencionales, los cuales no favorecen en nada a los productos.')
-
 @section('content')
 	<div class="container-fluid back-blue_1 m-b-40 p-b-20">
 		<div class="row">
@@ -34,9 +31,6 @@
 				<figure><img src="images/wood-and-stone-08.jpg" alt="proyecto WOOD &amp; STONE mobile devices development"></figure>
 				<figure><img src="images/wood-and-stone-09.jpg" alt="proyecto WOOD &amp; STONE desarrollo web administrable 06"></figure>
 				<figure><img src="images/wood-and-stone-10.jpg" alt="proyecto WOOD &amp; STONE Thanks for watching"></figure>
-				
-				{{-- <p class="m-t-40 m-b-40 col-sm-8 col-sm-offset-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias amet quos, consequuntur eaque nobis quas itaque, ipsam at tempore ipsum iusto reiciendis quasi cupiditate aperiam, consectetur dignissimos, accusantium vitae reprehenderit?</p> --}}
-
 			</div>
 
 			<div class="col-xs-12 m-t-40 m-b-40 text-center">
