@@ -112,6 +112,16 @@ class PagesController extends Controller
 		return View('pages.codimuba_en');
 	}
 
+	public function loscamachos()
+	{
+		return View('pages.loscamachos');
+	}
+
+	public function loscamachos_en()
+	{
+		return View('pages.loscamachos_en');
+	}
+
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)

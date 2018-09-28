@@ -97,7 +97,7 @@
 		<div class="row">
 			<div class="container">
 				<div class="row">
-					
+					<div class="col-xs-12 col-sm-4 project-item"><a title="View project LOS CAMACHOS" href="{{ url('en/web-development-los-camachos-guadalajara') }}"><img src="images/proyecto-desarrollo-web-los-camachos.png" alt="proyecto desarrollo web parque acuático los camachos"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="View project LE GARRAF" href="{{ url('/en/web-development-le-garraf') }}"><img src="images/proyecto-desarrollo-web-le-garraf.jpg" alt="web development project le garraf"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="View project GYB Machinery and Minery" href="{{ url('/en/web-development-logo-design-gyb') }}"><img src="images/proyecto-desarrollo-web-gyb.jpg" alt="web development project GYB Maquinaria pesada"></a></div>
 					<div class="col-xs-12 col-sm-4 project-item"><a title="View project PISTONES GARAGE" href="{{ url('/en/web-development-pistones-garage') }}"><img src="images/proyecto-integral-pistones.jpg" alt="integral project pistones"></a></div>

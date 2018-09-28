@@ -31,4 +31,6 @@ Route::get('proyecto-branding-selcon', 'PagesController@selcon');
 Route::get('en/branding-project-selcon', 'PagesController@selcon_en');
 Route::get('proyecto-desarrollo-web-codimuba', 'PagesController@codimuba');
 Route::get('en/web-development-codimuba', 'PagesController@codimuba_en');
+Route::get('proyecto-desarrollo-web-parque-los-camachos', 'PagesController@loscamachos');
+Route::get('en/web-development-los-camachos-guadalajara', 'PagesController@loscamachos_en');
 Route::post('sendmail', 'PagesController@sendmail');

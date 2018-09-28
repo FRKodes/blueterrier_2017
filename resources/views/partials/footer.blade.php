@@ -49,7 +49,7 @@
 			<a class="white" href="tel: +52 984 105 6131">+52 984 105 6131</a>
 		</p>
 
-		<img src="images/blue-terrier-dog.svg" alt="blue terrier dog">
+		<img src="/images/blue-terrier-dog.svg" alt="blue terrier dog">
 
 		<p class="give-us-a-like"><span class="blue_1">DANOS</span> LIKE</p>
 
