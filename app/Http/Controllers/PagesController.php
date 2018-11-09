@@ -117,9 +117,15 @@ class PagesController extends Controller
 		return View('pages.loscamachos');
 	}
 
+
 	public function loscamachos_en()
 	{
 		return View('pages.loscamachos_en');
+	}
+	
+	public function mmm()
+	{
+		return View('pages.mmm');
 	}
 
 	public function sendmail()
