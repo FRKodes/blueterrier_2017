@@ -6,4 +6,7 @@
 
   ga('create', 'UA-84802922-1', 'auto');
   ga('send', 'pageview');
+  gtag('config', 'AW-779764657');
 </script>
+<!-- Event snippet for Visitas a Contacto conversion page -->
+<script> gtag('event', 'conversion', {'send_to': 'AW-779764657/KLpQCLLB6o0BELGH6fMC'}); </script>
