@@ -11,5 +11,8 @@
         <script src="/js/app.js"></script>
         @include('partials.google')
         @include('partials.hotjar')
+        <a target="_blank" class="whatsapp" href="https://api.whatsapp.com/send?phone=523317074070">
+            <img src="/images/whatsapp-icon.png" alt="¿Tienes alguna duda? Escríbenos por WhatsApp">
+        </a>
     </body>
 </html>

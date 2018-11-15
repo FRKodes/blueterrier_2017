@@ -37,6 +37,7 @@
 			Av. Faro 2350 Col. Verde Valle <br>
 			Guadalajara, Jal. Mex. <br>
 			Teléfono: <a class="white" href="tel:33 4445 4818">(33) 4445-4818</a>
+			Celular: <a class="white" href="tel:3317074070">33 1707-4070</a>
 		</p>
 	</div>
 
