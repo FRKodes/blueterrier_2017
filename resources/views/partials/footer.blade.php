@@ -36,19 +36,19 @@
 			Edificio MIND Piso 1 Interior 1X <br>
 			Av. Faro 2350 Col. Verde Valle <br>
 			Guadalajara, Jal. Mex. <br>
-			Teléfono: <a class="white" href="tel:33 4445 4818">(33) 4445-4818</a>
-			Celular: <a class="white" href="tel:3317074070">33 1707-4070</a>
+			Teléfono: <a class="white" href="tel:33 4445 4818">(33) 4445-4818</a> <br>
+			Cel: <a class="white" href="tel:3317074070">33-1707-4070</a>
 		</p>
 	</div>
 
 	<hr class="col-xs-12 col-md-6 col-md-offset-3">
 
 	<div class="col-xs-12 text-center white">
-		<p>
+		{{-- <p>
 			Playa del Carmen <br>
 			Quintana Roo, Mx. <br>
 			<a class="white" href="tel: +52 984 105 6131">+52 984 105 6131</a>
-		</p>
+		</p> --}}
 
 		<img src="/images/blue-terrier-dog.svg" alt="blue terrier dog">
 
