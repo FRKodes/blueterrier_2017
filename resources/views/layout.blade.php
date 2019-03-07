@@ -2,8 +2,8 @@
 <html lang="{{ config('app.locale') }}">
 	<head>
 		@include('partials.metas')
-		@include('partials.styles')
 		@include('partials.google')
+		@include('partials.styles')
 	</head>
 	<body id="top">
 		<header>@include('partials.nav')</header>

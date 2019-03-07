@@ -2,6 +2,7 @@
 <html lang="{{ config('app.locale') }}">
     <head>
         @include('partials.metas_en')
+        @include('partials.google')
         @include('partials.styles')
     </head>
     <body id="top">
