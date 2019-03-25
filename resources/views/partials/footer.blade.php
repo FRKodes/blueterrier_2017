@@ -5,14 +5,18 @@
 
 		{{ Form::open(['id'=>'contactForm', 'url'=>'sendmail', 'class'=>'col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3']) }}
 			<div class="form-group{{ $errors->has('objetivo') ? ' has-error' : '' }}">
-			    {!! Form::select('objetivo', [''=>'¿Qué estás buscando?', 'Web'=>'Web', 'Branding'=>'Branding', 'MKT Digital'=>'MKT Digital' ], null, ['id' => 'objetivo', 'class' => 'form-control back-blue_1', 'data-validate' => 'required']) !!}
+			    {!! Form::select('objetivo', [''=>'¿Qué estás buscando? *', 'Web'=>'Web', 'Branding'=>'Branding', 'MKT Digital'=>'MKT Digital' ], null, ['id' => 'objetivo', 'class' => 'form-control back-blue_1', 'data-validate' => 'required']) !!}
 			</div>
 			<div class="form-group{{ $errors->has('nombre') ? ' has-error' : '' }}">
-			    {!! Form::text('nombre', null, ['class' => 'form-control', 'data-validate' => 'required', 'placeholder'=>'¿Cuá es tu nombre?']) !!}
+			    {!! Form::text('nombre', null, ['class' => 'form-control', 'data-validate' => 'required', 'placeholder'=>'¿Cuá es tu nombre? *']) !!}
 			</div>
 
 			<div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-			    {!! Form::text('email', null, ['class' => 'form-control', 'data-validate' => 'required|email', 'placeholder'=>'Escribe tu correo']) !!}
+			    {!! Form::text('email', null, ['class' => 'form-control', 'data-validate' => 'required|email', 'placeholder'=>'Escribe tu correo *']) !!}
+			</div>
+
+			<div class="form-group{{ $errors->has('telefono') ? ' has-error' : '' }}">
+			    {!! Form::text('telefono', null, ['class' => 'form-control', 'data-validate' => 'required', 'placeholder'=>'¿A que teléfono te podemos marcar? *']) !!}
 			</div>
 
 			<div class="form-group{{ $errors->has('comentario') ? ' has-error' : '' }}">

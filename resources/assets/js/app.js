@@ -98,20 +98,23 @@ $(function(){
 			var form    	= $('#contactForm'),
 				nombre		= form.find( "input[name='nombre']").val(),
 				email		= form.find( "input[name='email']").val(),
+				telefono	= form.find( "input[name='telefono']").val(),
 				objetivo	= form.find( "select[name='objetivo']").val(),
 				_token		= form.find( "input[name='_token']").val(),
 				comentario	= form.find( "textarea[name='comentario']").val(),
 				action		= form.attr( "action"),
 				url			= action;
-
+				
 			var posting = $.post(
-				url, { nombre: nombre, objetivo:objetivo, email: email, _token: _token, comentario: comentario }
+				url, { nombre: nombre, objetivo:objetivo, email: email, _token: _token, comentario: comentario, telefono: telefono }
 			);
+			
 			posting.done(function( data ){
 				console.log('email sent! \n' + data );
 				$('#contactForm')[0].reset();
 				$('.sent_mail_alert').fadeIn().delay(3000).fadeOut();
 			});
+
 		},
 		overallError : function($form, fields){ /*Do nothing, just show the error fields*/ },
 			autoDetect : true, debug : true

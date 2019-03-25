@@ -15,6 +15,10 @@
 			    {!! Form::text('email', null, ['class' => 'form-control', 'data-validate' => 'required|email', 'placeholder'=>'Your email?']) !!}
 			</div>
 
+			<div class="form-group{{ $errors->has('telefono') ? ' has-error' : '' }}">
+			    {!! Form::text('telefono', null, ['class' => 'form-control', 'data-validate' => 'required', 'placeholder'=>'any phone to get in touch? *']) !!}
+			</div>
+
 			<div class="form-group{{ $errors->has('comentario') ? ' has-error' : '' }}">
 			    {!! Form::textarea('comentario', null, ['class' => 'form-control', 'placeholder'=>'Tell us a little bit about your project']) !!}
 			</div>
