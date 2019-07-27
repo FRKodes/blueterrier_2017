@@ -128,6 +128,11 @@ class PagesController extends Controller
 		return View('pages.mmm');
 	}
 
+	public function vely()
+	{
+		return View('pages.vely');
+	}
+
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)

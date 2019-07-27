@@ -34,5 +34,6 @@ Route::get('en/web-development-codimuba', 'PagesController@codimuba_en');
 Route::get('proyecto-desarrollo-web-parque-los-camachos', 'PagesController@loscamachos');
 Route::get('en/web-development-los-camachos-guadalajara', 'PagesController@loscamachos_en');
 Route::get('proyecto-social-media-mini-miney-moe', 'PagesController@mmm');
+Route::get('proyecto-branding-artesanias-vely', 'PagesController@vely');
 Route::get('en/web-development-los-camachos-guadalajara', 'PagesController@loscamachos_en');
 Route::post('sendmail', 'PagesController@sendmail');
