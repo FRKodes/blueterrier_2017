@@ -24,7 +24,7 @@
 				</p>
 			</div>
 
-			<div class="images-container col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 ">
+			<div class="images-container col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 				<figure><img src="images/behance-vely-1.jpg" alt="Artesanías Vely Branding header"></figure>
 				<figure><img src="images/behance-vely-2.jpg" alt="Artesanías Vely Branding logo"></figure>
 				<figure><img src="images/behance-vely-3.jpg" alt="Artesanías Vely Branding tipografía"></figure>
