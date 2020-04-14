@@ -26,7 +26,7 @@
 				*Los campos con el contorno rojo son obligatorios.
 			</div>
 			<div class="form-group{{ $errors->has('submit') ? ' has-error' : '' }} text-center">
-			    {!! Form::submit('CONTÁCTANOS', ['class' => 'titillium submit', 'onclick'=>' return gtag_report_conversion(\'http://blueterrier.mx/#contacto\') ']) !!}
+			    {!! Form::submit('CONTÁCTANOS', ['class' => 'titillium submit', 'onclick'=>' return gtag_report_conversion(\'https://blueterrier.mx/#contacto\') ']) !!}
 			</div>
 			<div class="col-xs-12 col-sm-10 sent_mail_alert text-center">
 				<p>¡Gracias!</p>
