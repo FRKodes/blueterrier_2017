@@ -35,5 +35,6 @@ Route::get('proyecto-desarrollo-web-parque-los-camachos', 'PagesController@losca
 Route::get('en/web-development-los-camachos-guadalajara', 'PagesController@loscamachos_en');
 Route::get('proyecto-social-media-mini-miney-moe', 'PagesController@mmm');
 Route::get('proyecto-branding-artesanias-vely', 'PagesController@vely');
+Route::get('estrategias-de-marketing-para-la-cuarentena', 'PagesController@estrategias');
 Route::get('en/web-development-los-camachos-guadalajara', 'PagesController@loscamachos_en');
 Route::post('sendmail', 'PagesController@sendmail');
