@@ -138,6 +138,11 @@ class PagesController extends Controller
 		return View('pages.estrategias');
 	}
 
+	public function brian_eno()
+	{
+		return View('pages.brian_eno');
+	}
+
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)
