@@ -148,6 +148,11 @@ class PagesController extends Controller
 		return View('pages.arte_diseno');
 	}
 
+	public function redes_sociales_crecimiento()
+	{
+		return View('pages.redes_sociales_crecimiento');
+	}
+
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)
