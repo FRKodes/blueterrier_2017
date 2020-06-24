@@ -37,5 +37,7 @@ Route::get('proyecto-social-media-mini-miney-moe', 'PagesController@mmm');
 Route::get('proyecto-branding-artesanias-vely', 'PagesController@vely');
 Route::get('estrategias-de-marketing-para-la-cuarentena', 'PagesController@estrategias');
 Route::get('brian-eno-music-for-airports-y-la-musica-como-terapia-en-la-cuarentena', 'PagesController@brian_eno');
+Route::get('el-arte-en-el-diseno', 'PagesController@arte_diseno');
 Route::get('en/web-development-los-camachos-guadalajara', 'PagesController@loscamachos_en');
 Route::post('sendmail', 'PagesController@sendmail');
+
