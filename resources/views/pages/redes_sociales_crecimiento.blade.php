@@ -46,7 +46,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3 text-center">
-				<img src="/images/brian-eno.jpg" alt="Tony de blue terrier" style="width: 100%; height: auto; display: inline-block">
+				<img src="/images/redes-sociales-en-crecimiento-tiktok.jpeg" alt="Tony de blue terrier" style="width: 100%; height: auto; display: inline-block">
 			</div>
 		</div>
 		
@@ -56,7 +56,7 @@
 				<p>Es muy común que mediante las nuevas aplicaciones que poco a poco comienzan a llegar y posicionarse dentro del inmenso mundo del internet, surjan nuevas propuestas y formas de sacarles provecho al máximo. Seguramente has escuchado hablar sobre los ‘’influencers’’ pero, ¿sabes cuál es su misión o propósito en el universo digital? Según el diccionario de marketing de 40 de fiebre:</p>
 				<p class="italic">"Un influencer es una persona que cuenta con cierta credibilidad sobre un tema concreto, y por su presencia e influencia en redes sociales puede llegar a convertirse en un prescriptor interesante para una marca."</p>
 				<p>El propósito de tener influencers en tu marca es simplemente para crear un vínculo con los clientes o posibles clientes, partiendo desde un punto de confianza al recomendar un producto o servicio. Porque siendo honestos, ¿quién prefiere comprar un producto x visto en un anuncio sobre uno que te recomiende el chico o chica con más de 100 mil seguidores en Instagram? Esa ventaja es la que hace que su papel sea tan importante. </p>
-				<p>Una de las plataformas que podemos tomar de ejemplo es Tik Tok. Sin duda, una aplicación muy prometedora y que en poco tiempo ha logrado abrirse camino entre las demás.</p>
+				<p>Una de las plataformas que podemos tomar de ejemplo es <a href="https://www.tiktok.com/">Tik Tok</a>. Sin duda, una aplicación muy prometedora y que en poco tiempo ha logrado abrirse camino entre las demás.</p>
 				<p>Según Forbes, la empresa SocialBakers aseguró que esta plataforma ganó su fuerza en el año 2019 en especial dentro de los sectores de belleza, moda, comercio electrónico y autos. </p>
 				<p>Durante el 2018, muy poco conocida para muchas personas, esta aplicación fue la más descargada del mundo y tomando en cuenta el crecimiento que tuvo durante el año pasado, este 2020 es una de las más prometedoras y de las que se espera que aumente su público.</p>
 				<p>Y para esto, Ben-Itzhak de Socialbakers afirma que "<b>Tik Tok es la plataforma para ver en 2020</b>".</p>
