@@ -5,6 +5,10 @@
 		.mtop-60{
 			margin-top: 60px
 		}
+		.cien{
+			width: 100%;
+			display: block;
+		}
 		.italic{
 			font-style: italic;
 			font-weight: 100;
@@ -96,10 +100,14 @@
 				<p>Sin duda en lo que va desde su primera aparición, esta plataforma es ahora una de las más importantes ya que no hay un rango de edad para utilizarla. Y como se dice por ahí, lo más fácil es descargarla pero lo difícil es dejarla de usar. </p>
 				<p>Sabemos que aún le queda mucho camino por recorrer pero el comenzar a promover la venta y consumo de ciertas marcas o productos, abre una brecha inmensa para que crezca la competencia pero siempre, teniendo a estos agentes de los que tanto hemos hablado para tener ese ‘’look’’ de amigo cercano. </p>
 				<p>Aquí te comparto los perfiles de 3 influencers que en Tik Tok se han convertido en tendencia en los últimos meses:</p>
+
+				<p><img class="cien" src="/images/tiktokers.png" alt="3 tik tokers que son tendencia"></p>
 				
 				<p>Y en la querida sección de <a target="_blank" href="https://www.tiktok.com/@_cocaconhielos">Azu</a> recommends:</p>
 
-				<p>Sin duda el mundo del internet es algo que parece no tener fin y cada día nos sorprende con una tendencia nueva y de repente llegamos a sentirnos fuera de contexto. Que si un nuevo jabón, un challenge, etc. Si dejamos los prejuicios que tenemos sobre explorar terrenos diferentes a los que conocemos en cuestión digital, las ventajas que podríamos encontrar son muchas. Y si tus amigos te dicen que Tik Tok es para gente de cierta edad o te pone nervioso admitir que te pasas horas y horas viendo videos en la plataforma, déjalo de lado. Llegó el momento de las plataformas interactivas y que te llenan de contenido visual, divertido y fresco. </p>
+				<p>El mundo del internet es algo que parece no tener fin y cada día nos sorprende con una tendencia nueva y de repente llegamos a sentirnos fuera de contexto. Que si un nuevo jabón, un challenge, etc. </p>
+				<p>Si dejamos los prejuicios que tenemos sobre explorar terrenos diferentes a los que conocemos en cuestión digital, las ventajas que podríamos encontrar son muchas. Y si tus amigos te dicen que Tik Tok es para gente de cierta edad o te pone nervioso admitir que te pasas horas y horas viendo videos en la plataforma, déjalo de lado. </p>
+				<p>Llegó el momento de las plataformas interactivas y que te llenan de contenido visual, divertido y fresco. </p>
 
 			</div>
 		</div>
