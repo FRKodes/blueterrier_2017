@@ -153,6 +153,11 @@ class PagesController extends Controller
 		return View('pages.redes_sociales_crecimiento');
 	}
 
+	public function procrastinacion()
+	{
+		return View('pages.procrastinacion');
+	}
+
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)
