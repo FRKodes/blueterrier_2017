@@ -26,7 +26,7 @@
         <header>@include('partials.nav_en')</header>
         <section>@yield('content')</section>
         <footer>@include('partials.footer_en')</footer>
-        <script src="/js/app.js"></script>
+        <script src="/js/app.js?v=1.0"></script>
         @include('partials.google')
         @include('partials.hotjar')
         <a target="_blank" class="whatsapp" href="https://api.whatsapp.com/send?phone=523317074070">

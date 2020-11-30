@@ -7,7 +7,7 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
+// window.Vue = require('vue');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -15,11 +15,11 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
+// Vue.component('example', require('./components/Example.vue'));
 
-const app = new Vue({
-    el: '#app'
-});
+// const app = new Vue({
+//     el: '#app'
+// });
 
 jQuery(".right-menu li a, .interesado, .help-you").click(function() {
 	var anchor = jQuery(this).attr('href').substring(1);
@@ -95,25 +95,39 @@ $(function(){
 			$('.text-danger').fadeOut();
 		},
 		overallSuccess : function(){
-			var form    	= $('#contactForm'),
-				nombre		= form.find( "input[name='nombre']").val(),
-				email		= form.find( "input[name='email']").val(),
-				telefono	= form.find( "input[name='telefono']").val(),
-				objetivo	= form.find( "select[name='objetivo']").val(),
-				_token		= form.find( "input[name='_token']").val(),
-				comentario	= form.find( "textarea[name='comentario']").val(),
-				action		= form.attr( "action"),
-				url			= action;
-				
-			var posting = $.post(
-				url, { nombre: nombre, objetivo:objetivo, email: email, _token: _token, comentario: comentario, telefono: telefono }
-			);
-			
-			posting.done(function( data ){
-				console.log('email sent! \n' + data );
-				$('#contactForm')[0].reset();
-				$('.sent_mail_alert').fadeIn().delay(3000).fadeOut();
+
+
+		grecaptcha.ready(function() {
+			grecaptcha.execute('6Lc2yrUZAAAAAHasaCq-AinJWEd46oNGz2jQIEDW', {action: 'submit'}).then(function(token) {
+			  
+			  // Add your logic to submit to your backend server here.
+			  var form    	= $('#contactForm'),
+			  	nombre		= form.find( "input[name='nombre']").val(),
+			  	email		= form.find( "input[name='email']").val(),
+			  	telefono	= form.find( "input[name='telefono']").val(),
+			  	objetivo	= form.find( "select[name='objetivo']").val(),
+			  	_token		= form.find( "input[name='_token']").val(),
+			  	comentario	= form.find( "textarea[name='comentario']").val(),
+			  	action		= form.attr( "action"),
+			  	url			= action;
+			  	
+			  var posting = $.post(
+			  	url, { nombre: nombre, objetivo:objetivo, email: email, _token: _token, comentario: comentario, telefono: telefono }
+			  );
+			  
+			  posting.done(function( data ){
+			  	console.log('email sent! \n' + data );
+			  	$('#contactForm')[0].reset();
+			  	$('.sent_mail_alert').fadeIn().delay(3000).fadeOut();
+			  });
+
 			});
+		});
+
+
+
+
+
 
 		},
 		overallError : function($form, fields){ /*Do nothing, just show the error fields*/ },

@@ -26,7 +26,7 @@
 		<header>@include('partials.nav')</header>
 		<section>@yield('content')</section>
 		<footer>@include('partials.footer')</footer>
-		<script src="js/app.js"></script>
+		<script src="js/app.js?v=1.0"></script>
 		@include('partials.hotjar')
 		<a target="_blank" class="whatsapp" href="https://api.whatsapp.com/send?phone=523317074070">
 			<img src="/images/whatsapp-icon.png" alt="¿Tienes alguna duda? Escríbenos por WhatsApp">

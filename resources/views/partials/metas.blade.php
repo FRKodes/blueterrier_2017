@@ -6,6 +6,6 @@
 <meta name="description" content="@yield('description', 'Diseñamos marcas memorables, Desarrollamos Estrategias Digitales que impactan positivamente a tu audiencia, Creamos tu Página Web y Tienda Online, MKT digital orientado a cumplir objetivos.')">
 <meta name="keywords" content="Logo design, Web development, web development guadalajara, web development mexico, web design, web design mexico, web design guadalajara, outsourcing mexico, digital strategy, logo design mexico, logo design guadalajara, near shore design, near shore development, design and advertising, advertising mexico, responsive design, UX, user experience, startup, user experience design">
 <title>Blue Terrier Studio - @yield('title', 'Diseño, Branding, Desarrollo Web y MKT Digital en Guadalajara México')</title>
-<link rel="icon" href="favicon.png" type="image/png" sizes="32x32">
-
-
+<link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<script src="https://www.google.com/recaptcha/api.js?render=6Lc2yrUZAAAAAHasaCq-AinJWEd46oNGz2jQIEDW"></script>
