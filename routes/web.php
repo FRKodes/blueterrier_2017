@@ -41,4 +41,5 @@ Route::get('el-arte-en-el-diseno', 'PagesController@arte_diseno');
 Route::get('redes-sociales-en-crecimiento', 'PagesController@redes_sociales_crecimiento');
 Route::get('en/web-development-los-camachos-guadalajara', 'PagesController@loscamachos_en');
 Route::post('sendmail', 'PagesController@sendmail');
+Route::get('aviso-de-privacidad', 'PagesController@aviso');
 

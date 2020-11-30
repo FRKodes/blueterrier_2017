@@ -153,6 +153,11 @@ class PagesController extends Controller
 		return View('pages.redes_sociales_crecimiento');
 	}
 
+	public function aviso()
+	{
+		return View('pages.aviso');
+	}
+
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)

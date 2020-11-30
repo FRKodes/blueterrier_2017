@@ -64,5 +64,9 @@
 			<li><a target="_blank" href="https://www.behance.net/blueterrierstudio" class="icon-behance"></a></li>
 		</ul>
 
+		<p>
+			<a class="white text-center" href="{{ url('aviso-de-privacidad') }}">Aviso de Privacidad</a>
+		</p>
+
 	</div>
 </div>
