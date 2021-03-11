@@ -9,3 +9,4 @@
 <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <script src="https://www.google.com/recaptcha/api.js?render=6Lc2yrUZAAAAAHasaCq-AinJWEd46oNGz2jQIEDW"></script>
+<meta name="facebook-domain-verification" content="kaqz95iyll8f1asa8plf6ai2pek8kg" />
