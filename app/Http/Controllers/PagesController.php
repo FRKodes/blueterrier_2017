@@ -117,7 +117,6 @@ class PagesController extends Controller
 		return View('pages.loscamachos');
 	}
 
-
 	public function loscamachos_en()
 	{
 		return View('pages.loscamachos_en');
@@ -153,22 +152,21 @@ class PagesController extends Controller
 		return View('pages.redes_sociales_crecimiento');
 	}
 
-<<<<<<< HEAD
 	public function aviso()
 	{
 		return View('pages.aviso');
-=======
+	}
+
 	public function procrastinacion()
 	{
 		return View('pages.procrastinacion');
->>>>>>> 3e99a8e1707f04a45a66aa92777cd22525ad181f
 	}
 
 	public function sendmail()
 	{
 		Mail::send('emails.contacto-email', [], function($message)
 		{
-			$message->to('tony@blueterrier.mx', 'blue Terrier')->cc('diego@blueterrier.mx')->subject('Contacto desde blueterrier.mx');
+			$message->to('tony@blueterrier.mx', 'Blue Terrier')->cc('diego@blueterrier.mx')->subject('Contacto desde blueterrier.mx');
 		});
 	}
 }

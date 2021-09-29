@@ -116,7 +116,7 @@ $(function(){
 			  );
 			  
 			  posting.done(function( data ){
-			  	console.log('email sent! \n' + data );
+			  	// console.log('email sent! \n' + data );
 			  	$('#contactForm')[0].reset();
 			  	$('.sent_mail_alert').fadeIn().delay(3000).fadeOut();
 			  });
